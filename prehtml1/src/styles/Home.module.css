@@ -1,0 +1,20 @@
+.homeIndex {
+  display: flex;
+  flex-direction: column;
+}
+.homeSidebar {
+  flex: 1;
+  min-height: 88px;
+  background: lightblue;
+}
+.homeContainer {
+  flex: 3;
+  min-height: 100dvh;
+  background: lightpink;
+}
+
+@media (min-width: 768px) {
+  .homeIndex {
+    flex-direction: row;
+  }
+}
