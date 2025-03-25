@@ -5,7 +5,7 @@
 .homeSidebar {
   flex: 1;
   min-height: 88px;
-  background: lightblue;
+  /* background: lightblue; */
 }
 .homeContainer {
   flex: 3;

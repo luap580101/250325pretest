@@ -1,0 +1,42 @@
+.titleBackground {
+  min-height: 311px;
+  background-image: url("/web_images/home/layout.jpg");
+  background-size: 310%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding: 77px 22px 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.titleH1 {
+  width: 12rem;
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+.titleContent {
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5em;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .titleBackground {
+    min-height: 634px;
+    background-size: 200%;
+    background-position: 63% center;
+  }
+  .titleH1 {
+    width: unset;
+  }
+}

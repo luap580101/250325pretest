@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import { Sidebar } from "@/components/sidebar";
+import { HomeContent } from "@/components/homeContent";
+import HomeTitle from "@/components/homeTitle";
 
 export default function Home() {
   return (
@@ -14,7 +16,10 @@ export default function Home() {
       </Head>
       <div className={styles.homeIndex}>
         <Sidebar />
-        <div className={styles.homeContainer}>contain</div>
+        <div className={styles.homeContainer}>
+          <HomeTitle />
+          <HomeContent />
+        </div>
       </div>
     </>
   );
