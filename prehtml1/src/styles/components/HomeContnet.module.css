@@ -1,0 +1,52 @@
+.contentContainer {
+  background: #dcccbc;
+  box-sizing: border-box;
+  padding: 50px 36px 71px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.cardContainer {
+  display: flex;
+}
+.cardTitleBlock {
+  position: relative;
+  flex: 2;
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  width: 1rem;
+  word-break: break-all;
+}
+.cardCircle {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: 8px solid #aa666699;
+  border-radius: 50%;
+  top: 4rem;
+  left: 1.5rem;
+}
+.cardTitle {
+  width: 2rem;
+}
+.cardContent {
+  flex: 7;
+  font-family: Noto Sans;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  letter-spacing: 0%;
+}
+@media (min-width: 768px) {
+  .contentContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 58px 50px 84px;
+  }
+  .cardContainer {
+    gap: 0.8rem;
+    max-width: 280px;
+  }
+}

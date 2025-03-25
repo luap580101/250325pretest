@@ -10,7 +10,7 @@
 .homeContainer {
   flex: 3;
   min-height: 100dvh;
-  background: lightpink;
+  background: #dcccbc;
 }
 
 @media (min-width: 768px) {

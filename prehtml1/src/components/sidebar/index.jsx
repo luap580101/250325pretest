@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "@/styles/components/Sidebar.module.css";
-import { SidebarItem } from "./SidebarItem";
+import { SidebarItem } from "@/components/sidebar/sidebarItem";
 
 export const Sidebar = () => {
   const [sidebarContentArray, setSidebarContentArray] = useState([
